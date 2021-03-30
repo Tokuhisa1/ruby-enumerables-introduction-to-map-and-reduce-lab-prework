@@ -71,3 +71,17 @@ def reduce_to_all_true(array)
   
   true
 end
+
+def reduce_to_all_true(array)
+  index = 0
+
+  while index < array.length do
+    if !array[index]
+      return false
+    end
+  
+    index   = index + 1
+  end
+  
+  true
+end
