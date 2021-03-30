@@ -58,7 +58,7 @@ def reduce_to_total(array, reduced = 0)
   reduced
 end
 
-def reduce_to_total(array, reduced = 0)
+def reduce_to_all_true(array, reduced = 0)
   index = 0
 
   while index < array.length do
