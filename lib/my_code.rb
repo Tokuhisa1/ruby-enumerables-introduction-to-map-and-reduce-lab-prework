@@ -5,31 +5,31 @@ def map_to_negativize(array)
   
   while index < array.length do
     mapped << array[index] * -1
-    index = index + 1
+    index   = index + 1
   end
   
   mapped
 end
 
 def map_to_no_change(array)
-  index = 0
+  index  = 0
   mapped = []
   
   while index < array.length do
     mapped << array[index]
-    index = index + 1
+    index   = index + 1
   end
   
   mapped
 end
 
 def map_to_double(array)
-  index = 0
+  index  = 0
   mapped = []
   
   while index < array.length do
     mapped << array[index] * 2
-    index = index + 1
+    index   = index + 1
   end
   
   mapped
@@ -41,7 +41,7 @@ def map_to_square(array)
   
   while index < array.length do
     mapped << array[index] * array[index]
-    index = index + 1
+    index   = index + 1
   end
   
   mapped
@@ -53,7 +53,7 @@ def reduce_to_total(array)
   
   while index < array.length do
     reduced = reduced + array[index]
-    index = index + 1
+    index   = index + 1
   end
   
   reduced
