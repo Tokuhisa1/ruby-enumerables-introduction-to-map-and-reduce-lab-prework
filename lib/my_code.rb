@@ -35,12 +35,12 @@ def map_to_double(array)
   mapped
 end
 
-def map_to_double(array)
+def map_to_square(array)
   index = 0
   mapped = []
   
   while index < array.length do
-    mapped << array[index] * 2
+    mapped << array[index] * array[index]
     index = index + 1
   end
   
