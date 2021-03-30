@@ -34,3 +34,15 @@ def map_to_double(array)
   
   mapped
 end
+
+def map_to_double(array)
+  index = 0
+  mapped = []
+  
+  while index < array.length do
+    mapped << array[index] * 2
+    index = index + 1
+  end
+  
+  mapped
+end
