@@ -46,3 +46,15 @@ def map_to_square(array)
   
   mapped
 end
+
+def map_to_square(array)
+  index = 0
+  mapped = []
+  
+  while index < array.length do
+    mapped << array[index] * array[index]
+    index = index + 1
+  end
+  
+  mapped
+end
