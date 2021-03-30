@@ -57,3 +57,14 @@ def reduce_to_total(array, reduced = 0)
   
   reduced
 end
+
+def reduce_to_total(array, reduced = 0)
+  index = 0
+
+  while index < array.length do
+    reduced = reduced + array[index]
+    index   = index + 1
+  end
+  
+  reduced
+end
