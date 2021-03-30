@@ -58,13 +58,15 @@ def reduce_to_total(array, reduced = 0)
   reduced
 end
 
-def reduce_to_all_true(array, reduced = 0)
+def reduce_to_all_true(array)
   index = 0
 
   while index < array.length do
-    reduced = reduced + array[index]
+    if array[index] != true
+      return false
+    end
     index   = index + 1
   end
   
-  reduced
+  true
 end
