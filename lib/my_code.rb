@@ -23,12 +23,12 @@ def map_to_no_change(array)
   mapped
 end
 
-def map_to_no_change(array)
+def map_to_double(array)
   index = 0
   mapped = []
   
   while index < array.length do
-    mapped << array[index]
+    mapped << array[index] * 2
     index = index + 1
   end
   
