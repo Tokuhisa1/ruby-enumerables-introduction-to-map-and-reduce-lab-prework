@@ -1,6 +1,6 @@
 # My Code here....
 def map_to_negativize(array)
-  index = 0
+  index  = 0
   mapped = []
   
   while index < array.length do
@@ -47,14 +47,14 @@ def map_to_square(array)
   mapped
 end
 
-def map_to_square(array)
+def reduce_to_total(array)
   index = 0
-  mapped = []
+  reduced = 0
   
   while index < array.length do
-    mapped << array[index] * array[index]
+    reduced = reduced + array[index]
     index = index + 1
   end
   
-  mapped
+  reduced
 end
