@@ -47,9 +47,10 @@ def map_to_square(array)
   mapped
 end
 
-def reduce_to_total(array, reduced)
+def reduce_to_total(array)
   index = 0
-
+  reduced = 0
+  
   while index < array.length do
     reduced = reduced + array[index]
     index   = index + 1
