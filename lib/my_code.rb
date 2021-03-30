@@ -5,6 +5,7 @@ def map_to_negativize(array)
   
   while index < array.length do
     mapped << array[index] * -1
+    index = index + 1
   end
   
   mapped
