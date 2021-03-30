@@ -76,12 +76,12 @@ def reduce_to_any_true(array)
   index = 0
 
   while index < array.length do
-    if !array[index]
-      return false
+    if array[index]
+      return true
     end
   
     index   = index + 1
   end
   
-  true
+  false
 end
